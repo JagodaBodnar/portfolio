@@ -22,7 +22,7 @@ const List = styled.ul`
 `
 const Nav = styled.nav`
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
 `
 const Switch = styled.label`
   position: relative;
@@ -80,6 +80,15 @@ const SwitchInput = styled.input`
     transform: translateX(26px);
   }
 `
+const Logo= styled.div<{$theme:string}>`
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 50px;
+  color: ${props=> props.$theme === "light"? "#000": "#fff"};
+  @media(max-width: 600px){
+  @media(max-width: 600px){
+    font-size: 20px;
+  }
+`
 
 type Props = {
   handleThemeChange: () => void
@@ -89,6 +98,7 @@ const Navigation = ({handleThemeChange}: Props) => {
 
   return (
     <Nav>
+      <Logo $theme={theme}>Jagoda Bodnar</Logo>
       <List>
         <li><Icon href="https://www.linkedin.com/in/jagoda-bodnar-765a90a6/" $size={30}
                   $icon={'linkedin'}/></li>
