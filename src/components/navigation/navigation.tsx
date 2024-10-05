@@ -90,11 +90,11 @@ const Navigation = ({handleThemeChange}: Props) => {
   return (
     <Nav>
       <List>
-        <li><Icon href="https://www.linkedin.com/in/jagoda-bodnar-765a90a6/" alt="linkedin icon" $size={30}
+        <li><Icon href="https://www.linkedin.com/in/jagoda-bodnar-765a90a6/" $size={30}
                   $icon={'linkedin'}/></li>
-        <li><Icon href="https://github.com/JagodaBodnar" alt="github icon" $size={35} $icon={'github'} target="_blank"/>
+        <li><Icon href="https://github.com/JagodaBodnar" $size={35} $icon={'github'} target="_blank"/>
         </li>
-        <li><Icon href="mailto:dev.jagodabodnar@gmail.com" alt="gmail icon" $size={40} $icon={'gmail'}/></li>
+        <li><Icon href="mailto:dev.jagodabodnar@gmail.com" $size={40} $icon={'gmail'}/></li>
         <Switch>
           <SwitchInput type="checkbox" onClick={handleThemeChange}/>
           <Slider $theme={theme}/>
