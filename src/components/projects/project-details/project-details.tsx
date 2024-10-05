@@ -17,8 +17,8 @@ const Title = styled.h3<{ $theme: string }>`
 
 const Span = styled.a<{ $theme: string, $icon: string }>`
   background-image: ${props => props.$theme === "dark"
-          ? `url(src/assets/${props.$icon}-icon.svg)`
-          : `url(src/assets/${props.$icon}-icon-dark.svg)`};
+          ? `url(${props.$icon}-icon.svg)`
+          : `url(${props.$icon}-icon-dark.svg)`};
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

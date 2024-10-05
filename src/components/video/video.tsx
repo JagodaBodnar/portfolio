@@ -12,7 +12,7 @@ const Iframe = styled.iframe`
 const CloseButton = styled.button`
   width: 40px;
   height: 40px;
-  background-image: url("src/assets/close-icon.svg");
+  background-image: url("close-icon.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: transparent;
