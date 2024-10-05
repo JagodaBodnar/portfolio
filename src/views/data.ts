@@ -113,22 +113,22 @@ export const projects =[
     frontTech: "TypeScript, React, Vite, MUI, Redux toolkit, npm",
     backTech: "Java, Spring Boot, Lombok, Spring Security, Maven, Docker"
   },
-  {
-    id:2,
-    name: 'Furniture shop',
-    website: '',
-    code: 'https://github.com/JagodaBodnar/consultant-tracker',
-    description: "Project description to update",
-    frontTech: "frontend technologies",
-    backTech: "backend technologies"
-  },
+  // {
+  //   id:2,
+  //   name: 'Furniture shop',
+  //   website: '',
+  //   code: 'https://github.com/JagodaBodnar/consultant-tracker',
+  //   description: "Project description to update",
+  //   frontTech: "frontend technologies",
+  //   backTech: "backend technologies"
+  // },
   {
     id:3,
     name: 'Team up',
     website: '',
     code: 'https://github.com/JagodaBodnar/consultant-tracker',
-    description: "Project description to update",
-    frontTech: "frontend technologies",
-    backTech: "backend technologies"
+    description: "Application to match team sports enthusiast together. In development.",
+    frontTech: "React, Redux, StyledComponents",
+    backTech: "Java, Spring, JPA"
   }
 ]

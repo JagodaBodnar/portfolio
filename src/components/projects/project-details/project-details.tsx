@@ -68,7 +68,7 @@ const ProjectDetails = ({handleShowVideo, el}: Props) => {
       <IconsWrapper>
         <Span onClick={handleShowVideo} target="_blank" $theme={theme} $icon="play"/>
         <Span href={el.code} target="_blank" $theme={theme} $icon="code"/>
-        <Span href={el.website} target="_blank" $theme={theme} $icon="web"/>
+        {el.website.length > 0 && <Span href={el.website} target="_blank" $theme={theme} $icon="web"/>}
       </IconsWrapper>
     </>
   );
