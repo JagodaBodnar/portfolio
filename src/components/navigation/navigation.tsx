@@ -1,18 +1,18 @@
 import styled from "styled-components";
 import {useContext} from "react";
 import {ThemeContext} from "../../context/ThemeContext.ts";
-import moon from '../../../public/moon-icon.svg'
-import sun from '../../../public/sun-icon.svg'
+import moon from '/moon-icon.svg'
+import sun from '/sun-icon.svg'
 
 const Icon = styled.a<{ $icon: string, $size: number }>`
   width: ${props => `${props.$size}px`};
   height: ${props => `${props.$size}px`};
   display: block;
-  background-image: ${props => `url(../../../public/${props.$icon}-icon.svg)`};
+  background-image: ${props => `url(${props.$icon}-icon.svg)`};
   background-size: cover;
 
   &:hover {
-    background-image: ${props => `url(../../../public/${props.$icon}-icon-hover.svg)`};
+    background-image: ${props => `url(${props.$icon}-icon-hover.svg)`};
   }
 `
 const List = styled.ul`

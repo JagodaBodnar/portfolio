@@ -18,11 +18,11 @@ const Icon = styled.div<{ $icon: string, $size: number }>`
   width: ${props => `${props.$size}px`};
   height: ${props => `${props.$size}px`};
   display: block;
-  background-image: ${props => `url(../../../public/${props.$icon}-icon.svg)`};
+  background-image: ${props => `url(${props.$icon}-icon.svg)`};
   background-size: cover;
 
   ${Link}:hover & {
-    background-image: ${props => `url(../../../public/${props.$icon}-icon-hover.svg)`};
+    background-image: ${props => `url(${props.$icon}-icon-hover.svg)`};
   }
 `
 
