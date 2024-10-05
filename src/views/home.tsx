@@ -51,10 +51,9 @@ const Home = () => {
     <Main>
       <div>
         <HeaderOne $theme={theme}>Welcome.</HeaderOne>
-        <Paragraph $theme={theme}>My name is Jagoda Bodnar, a fullstack java developer based in Uppsala, Sweden.
-          I have worked on front-end projects, from finance applications to manager platforms,
-          with a focus on creating clean, well-crafted interfaces that not only look great
-          but also provide a seamless user experience.
+        <Paragraph $theme={theme}> My name is Jagoda and I am an ambitious and passionate full-stack java developer
+          based in Uppsala, Sweden. My diverse range of skills, experience and knowledge helps me create
+          clean, well-crafted interfaces that not only look great but also provide a seamless user experience.
         </Paragraph>
       </div>
       <Aside>
