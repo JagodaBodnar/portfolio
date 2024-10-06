@@ -37,7 +37,7 @@ const SingleProject = ({el}: Props) => {
   return (
     <Wrapper $theme={theme} $video={video}>
       {video
-        ? <Video handleHideVideo={handleHideVideo}/>
+        ? <Video handleHideVideo={handleHideVideo} el={el}/>
         : <ProjectDetails el={el} handleShowVideo={handleShowVideo} />
       }
     </Wrapper>

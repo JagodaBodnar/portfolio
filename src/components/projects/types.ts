@@ -3,6 +3,7 @@ export type ProjectType = {
   name: string,
   website: string,
   code: string,
+  video: string,
   description: string,
   frontTech: string,
   backTech: string

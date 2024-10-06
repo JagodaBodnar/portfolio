@@ -108,6 +108,7 @@ export const projects =[
     name: 'Consultant Tracker',
     website: '',
     code: 'https://github.com/JagodaBodnar/consultant-tracker',
+    video: "https://www.youtube.com/embed/KS4AKky3_NM?si=koBbIlyq8HLWc4Nw",
     description: "Application created to help core team keep track of consultants." +
       " Provides visual (gantt chart) representation of worked time, absences, vacations and remaining time for each consultant.",
     frontTech: "TypeScript, React, Vite, MUI, Redux toolkit, npm",
@@ -124,11 +125,11 @@ export const projects =[
   // },
   {
     id:3,
-    name: 'Team up',
-    website: '',
-    code: 'https://github.com/JagodaBodnar/consultant-tracker',
-    description: "Application to match team sports enthusiast together. In development.",
-    frontTech: "React, Redux, StyledComponents",
-    backTech: "Java, Spring, JPA"
+    name: 'Jewelry shop',
+    website: 'https://jewelry-shop-jb.netlify.app/',
+    code: 'https://github.com/JagodaBodnar/Jewelry-shop',
+    video: "https://www.youtube.com/embed/RIHXKs4pzEk?si=6P6v4CYHJNDL2BoX",
+    description: "Application was created with for educational purposes. Application is basically Jewelry shop.",
+    frontTech: "React, Redux, StyledComponents, Contentful",
   }
 ]

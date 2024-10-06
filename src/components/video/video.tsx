@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {ProjectType} from "../projects/types.ts";
 
 const Iframe = styled.iframe`
   width: 100%;
@@ -24,14 +25,15 @@ const CloseButton = styled.button`
 `
 
 type Props = {
-  handleHideVideo: () => void
+  handleHideVideo: () => void,
+  el: ProjectType
 }
 
-const Video = ({handleHideVideo}: Props) => {
+const Video = ({handleHideVideo, el}: Props) => {
   return (
     <>
-      <Iframe
-        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+      <Iframe allowfullscreen
+        src={el.video}>
       </Iframe>
       <CloseButton onClick={handleHideVideo}/>
     </>
