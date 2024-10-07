@@ -131,5 +131,6 @@ export const projects =[
     video: "https://www.youtube.com/embed/RIHXKs4pzEk?si=6P6v4CYHJNDL2BoX",
     description: "Application was created with for educational purposes. Application is basically Jewelry shop.",
     frontTech: "React, Redux, StyledComponents, Contentful",
+    backTech: ""
   }
 ]
