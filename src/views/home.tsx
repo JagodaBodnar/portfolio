@@ -44,6 +44,14 @@ const Aside = styled.aside`
     align-items: flex-start;
   }
 `
+const Resume = styled.a`
+  text-decoration: none;
+  color: #fff;
+  background-color:  #60B7E6;
+  padding: 10px;
+  
+
+`
 
 const Home = () => {
   const theme = useContext(ThemeContext);
@@ -55,6 +63,7 @@ const Home = () => {
           based in Uppsala, Sweden. My diverse range of skills, experience and knowledge helps me create
           clean, well-crafted interfaces that not only look great but also provide a seamless user experience.
         </Paragraph>
+        <Resume href="public/CV-Jagoda_Bodnar.pdf" target="_blank">Resume</Resume>
       </div>
       <Aside>
         <Projects />

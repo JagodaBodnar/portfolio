@@ -32,7 +32,7 @@ type Props = {
 const Video = ({handleHideVideo, el}: Props) => {
   return (
     <>
-      <Iframe src={el.video}>
+      <Iframe src={el.video} allowFullScreen={true}>
       </Iframe>
       <CloseButton onClick={handleHideVideo}/>
     </>
