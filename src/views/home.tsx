@@ -63,7 +63,7 @@ const Home = () => {
           based in Uppsala, Sweden. My diverse range of skills, experience and knowledge helps me create
           clean, well-crafted interfaces that not only look great but also provide a seamless user experience.
         </Paragraph>
-        <Resume href="public/CV-Jagoda_Bodnar.pdf" download>Resume</Resume>
+        <Resume href="public/CV-Jagoda_Bodnar.pdf" download="CV-JagodaBodnar">Resume</Resume>
       </div>
       <Aside>
         <Projects />
